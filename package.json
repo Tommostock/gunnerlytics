@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "scrape": "npx tsx scripts/scrape/index.ts",
-    "scrape:test": "npx tsx scripts/scrape/index.ts --dry-run"
+    "scrape:test": "npx tsx scripts/scrape/index.ts --dry-run",
+    "scrape:verbose": "npx tsx scripts/scrape/index.ts --verbose",
+    "db:init": "npx tsx scripts/init-db/bootstrap.ts",
+    "db:refresh": "npm run scrape && npm run build"
   },
   "dependencies": {
     "@eslint/eslintrc": "^3.3.4",
