@@ -1,0 +1,67 @@
+name: Update Player Data
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run scraper
+        run: npx tsx scripts/scrape/index.ts
+        env:
+          NODE_ENV: production
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/players.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in player data"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in player data"
+            git diff --stat data/players.json
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Gunnerlytics Bot"
+          git config user.email "bot@gunnerlytics.app"
+          git add data/players.json
+          git commit -m "chore: update player data $(date +%Y-%m-%d)"
+          git push
+
+      - name: Trigger Vercel redeploy
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "Triggered Vercel redeploy"
+          else
+            echo "No VERCEL_DEPLOY_HOOK secret set. Skipping redeploy trigger."
+            echo "Vercel will auto-deploy from the pushed commit if connected to GitHub."
+          fi

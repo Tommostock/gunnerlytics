@@ -1,0 +1,469 @@
+[
+  {
+    "id": "thierry-henry",
+    "slug": "thierry-henry",
+    "fullName": "Thierry Daniel Henry",
+    "shortName": "Thierry Henry",
+    "dateOfBirth": "1977-08-17",
+    "nationality": "France",
+    "height": 188,
+    "preferredFoot": "Right",
+    "primaryPosition": "ST",
+    "secondaryPositions": ["LW", "CF"],
+    "shirtNumbers": [14, 12],
+    "imageUrl": "/images/players/thierry-henry.jpg",
+    "arsenalCareer": {
+      "startYear": 1999,
+      "endYear": 2007,
+      "signedFrom": "Juventus",
+      "soldTo": "Barcelona",
+      "transferFeeIn": "£11m",
+      "transferFeeOut": "£16.1m",
+      "captain": false,
+      "managersPlayedUnder": ["Arsene Wenger"]
+    },
+    "stats": {
+      "totalAppearances": 377,
+      "totalGoals": 228,
+      "totalAssists": 106,
+      "totalMinutesPlayed": 30580,
+      "goalsPer90": 0.67,
+      "assistsPer90": 0.31,
+      "cleanSheets": 0,
+      "yellowCards": 40,
+      "redCards": 3,
+      "byCompetition": [
+        {
+          "competition": "Premier League",
+          "appearances": 258,
+          "goals": 175,
+          "assists": 74,
+          "minutesPlayed": 21240
+        },
+        {
+          "competition": "Champions League",
+          "appearances": 60,
+          "goals": 25,
+          "assists": 16,
+          "minutesPlayed": 4860
+        },
+        {
+          "competition": "FA Cup",
+          "appearances": 31,
+          "goals": 16,
+          "assists": 8,
+          "minutesPlayed": 2430
+        },
+        {
+          "competition": "League Cup",
+          "appearances": 14,
+          "goals": 7,
+          "assists": 4,
+          "minutesPlayed": 1080
+        },
+        {
+          "competition": "Community Shield",
+          "appearances": 4,
+          "goals": 2,
+          "assists": 1,
+          "minutesPlayed": 360
+        }
+      ]
+    },
+    "trophies": [
+      { "name": "Premier League", "season": "2001-02" },
+      { "name": "Premier League", "season": "2003-04" },
+      { "name": "FA Cup", "season": "2001-02" },
+      { "name": "FA Cup", "season": "2002-03" },
+      { "name": "FA Cup", "season": "2004-05" },
+      { "name": "Community Shield", "season": "1999-00" },
+      { "name": "Community Shield", "season": "2002-03" },
+      { "name": "Community Shield", "season": "2004-05" }
+    ],
+    "meta": {
+      "era": "Arsene Wenger",
+      "lastUpdated": "2025-01-01",
+      "dataSource": "fbref/wikipedia"
+    }
+  },
+  {
+    "id": "dennis-bergkamp",
+    "slug": "dennis-bergkamp",
+    "fullName": "Dennis Nicolaas Maria Bergkamp",
+    "shortName": "Dennis Bergkamp",
+    "dateOfBirth": "1969-05-10",
+    "nationality": "Netherlands",
+    "height": 183,
+    "preferredFoot": "Right",
+    "primaryPosition": "CF",
+    "secondaryPositions": ["CAM", "ST"],
+    "shirtNumbers": [10],
+    "imageUrl": "/images/players/dennis-bergkamp.jpg",
+    "arsenalCareer": {
+      "startYear": 1995,
+      "endYear": 2006,
+      "signedFrom": "Inter Milan",
+      "soldTo": null,
+      "transferFeeIn": "£7.5m",
+      "transferFeeOut": null,
+      "captain": false,
+      "managersPlayedUnder": ["Bruce Rioch", "Arsene Wenger"]
+    },
+    "stats": {
+      "totalAppearances": 423,
+      "totalGoals": 120,
+      "totalAssists": 95,
+      "totalMinutesPlayed": 32400,
+      "goalsPer90": 0.33,
+      "assistsPer90": 0.26,
+      "cleanSheets": 0,
+      "yellowCards": 35,
+      "redCards": 2,
+      "byCompetition": [
+        {
+          "competition": "Premier League",
+          "appearances": 315,
+          "goals": 87,
+          "assists": 71,
+          "minutesPlayed": 24300
+        },
+        {
+          "competition": "Champions League",
+          "appearances": 44,
+          "goals": 12,
+          "assists": 10,
+          "minutesPlayed": 3420
+        },
+        {
+          "competition": "FA Cup",
+          "appearances": 36,
+          "goals": 12,
+          "assists": 8,
+          "minutesPlayed": 2700
+        },
+        {
+          "competition": "League Cup",
+          "appearances": 16,
+          "goals": 5,
+          "assists": 3,
+          "minutesPlayed": 1200
+        },
+        {
+          "competition": "UEFA Cup",
+          "appearances": 8,
+          "goals": 3,
+          "assists": 2,
+          "minutesPlayed": 600
+        }
+      ]
+    },
+    "trophies": [
+      { "name": "Premier League", "season": "1997-98" },
+      { "name": "Premier League", "season": "2001-02" },
+      { "name": "Premier League", "season": "2003-04" },
+      { "name": "FA Cup", "season": "1997-98" },
+      { "name": "FA Cup", "season": "2001-02" },
+      { "name": "FA Cup", "season": "2002-03" },
+      { "name": "FA Cup", "season": "2004-05" }
+    ],
+    "meta": {
+      "era": "Arsene Wenger",
+      "lastUpdated": "2025-01-01",
+      "dataSource": "fbref/wikipedia"
+    }
+  },
+  {
+    "id": "patrick-vieira",
+    "slug": "patrick-vieira",
+    "fullName": "Patrick Émery Vieira",
+    "shortName": "Patrick Vieira",
+    "dateOfBirth": "1976-06-23",
+    "nationality": "France",
+    "height": 191,
+    "preferredFoot": "Right",
+    "primaryPosition": "CM",
+    "secondaryPositions": ["CDM"],
+    "shirtNumbers": [4],
+    "imageUrl": "/images/players/patrick-vieira.jpg",
+    "arsenalCareer": {
+      "startYear": 1996,
+      "endYear": 2005,
+      "signedFrom": "AC Milan",
+      "soldTo": "Juventus",
+      "transferFeeIn": "£3.5m",
+      "transferFeeOut": "£13.75m",
+      "captain": true,
+      "captainYears": "2002-2005",
+      "managersPlayedUnder": ["Arsene Wenger"]
+    },
+    "stats": {
+      "totalAppearances": 407,
+      "totalGoals": 34,
+      "totalAssists": 34,
+      "totalMinutesPlayed": 33210,
+      "goalsPer90": 0.09,
+      "assistsPer90": 0.09,
+      "cleanSheets": 0,
+      "yellowCards": 76,
+      "redCards": 8,
+      "byCompetition": [
+        {
+          "competition": "Premier League",
+          "appearances": 279,
+          "goals": 21,
+          "assists": 24,
+          "minutesPlayed": 23040
+        },
+        {
+          "competition": "Champions League",
+          "appearances": 53,
+          "goals": 4,
+          "assists": 4,
+          "minutesPlayed": 4320
+        },
+        {
+          "competition": "FA Cup",
+          "appearances": 40,
+          "goals": 5,
+          "assists": 3,
+          "minutesPlayed": 3240
+        },
+        {
+          "competition": "League Cup",
+          "appearances": 18,
+          "goals": 2,
+          "assists": 2,
+          "minutesPlayed": 1440
+        },
+        {
+          "competition": "Community Shield",
+          "appearances": 4,
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 360
+        }
+      ]
+    },
+    "trophies": [
+      { "name": "Premier League", "season": "1997-98" },
+      { "name": "Premier League", "season": "2001-02" },
+      { "name": "Premier League", "season": "2003-04" },
+      { "name": "FA Cup", "season": "1997-98" },
+      { "name": "FA Cup", "season": "2001-02" },
+      { "name": "FA Cup", "season": "2002-03" },
+      { "name": "FA Cup", "season": "2004-05" },
+      { "name": "Community Shield", "season": "1998-99" },
+      { "name": "Community Shield", "season": "1999-00" },
+      { "name": "Community Shield", "season": "2002-03" },
+      { "name": "Community Shield", "season": "2004-05" }
+    ],
+    "meta": {
+      "era": "Arsene Wenger",
+      "lastUpdated": "2025-01-01",
+      "dataSource": "fbref/wikipedia"
+    }
+  },
+  {
+    "id": "tony-adams",
+    "slug": "tony-adams",
+    "fullName": "Tony Alexander Adams",
+    "shortName": "Tony Adams",
+    "dateOfBirth": "1966-10-10",
+    "nationality": "England",
+    "height": 190,
+    "preferredFoot": "Right",
+    "primaryPosition": "CB",
+    "secondaryPositions": [],
+    "shirtNumbers": [6],
+    "imageUrl": "/images/players/tony-adams.jpg",
+    "arsenalCareer": {
+      "startYear": 1983,
+      "endYear": 2002,
+      "signedFrom": "Arsenal Youth",
+      "soldTo": null,
+      "transferFeeIn": "Youth Academy",
+      "transferFeeOut": null,
+      "captain": true,
+      "captainYears": "1988-2002",
+      "managersPlayedUnder": ["Terry Neill", "Don Howe", "George Graham", "Bruce Rioch", "Arsene Wenger"]
+    },
+    "stats": {
+      "totalAppearances": 672,
+      "totalGoals": 48,
+      "totalAssists": 18,
+      "totalMinutesPlayed": 57960,
+      "goalsPer90": 0.07,
+      "assistsPer90": 0.03,
+      "cleanSheets": 0,
+      "yellowCards": 55,
+      "redCards": 4,
+      "byCompetition": [
+        {
+          "competition": "Premier League",
+          "appearances": 255,
+          "goals": 12,
+          "assists": 8,
+          "minutesPlayed": 22050
+        },
+        {
+          "competition": "First Division",
+          "appearances": 249,
+          "goals": 20,
+          "assists": 5,
+          "minutesPlayed": 21510
+        },
+        {
+          "competition": "Champions League",
+          "appearances": 24,
+          "goals": 2,
+          "assists": 1,
+          "minutesPlayed": 2070
+        },
+        {
+          "competition": "FA Cup",
+          "appearances": 56,
+          "goals": 5,
+          "assists": 2,
+          "minutesPlayed": 4860
+        },
+        {
+          "competition": "League Cup",
+          "appearances": 52,
+          "goals": 5,
+          "assists": 1,
+          "minutesPlayed": 4500
+        },
+        {
+          "competition": "Cup Winners Cup",
+          "appearances": 18,
+          "goals": 2,
+          "assists": 0,
+          "minutesPlayed": 1530
+        },
+        {
+          "competition": "Community Shield",
+          "appearances": 6,
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 540
+        }
+      ]
+    },
+    "trophies": [
+      { "name": "First Division", "season": "1988-89" },
+      { "name": "First Division", "season": "1990-91" },
+      { "name": "Premier League", "season": "1997-98" },
+      { "name": "Premier League", "season": "2001-02" },
+      { "name": "FA Cup", "season": "1992-93" },
+      { "name": "FA Cup", "season": "1997-98" },
+      { "name": "FA Cup", "season": "2001-02" },
+      { "name": "League Cup", "season": "1986-87" },
+      { "name": "League Cup", "season": "1992-93" },
+      { "name": "Cup Winners Cup", "season": "1993-94" },
+      { "name": "Community Shield", "season": "1998-99" }
+    ],
+    "meta": {
+      "era": "George Graham",
+      "lastUpdated": "2025-01-01",
+      "dataSource": "fbref/wikipedia"
+    }
+  },
+  {
+    "id": "ian-wright",
+    "slug": "ian-wright",
+    "fullName": "Ian Edward Wright",
+    "shortName": "Ian Wright",
+    "dateOfBirth": "1963-11-03",
+    "nationality": "England",
+    "height": 175,
+    "preferredFoot": "Right",
+    "primaryPosition": "ST",
+    "secondaryPositions": ["CF", "LW"],
+    "shirtNumbers": [8],
+    "imageUrl": "/images/players/ian-wright.jpg",
+    "arsenalCareer": {
+      "startYear": 1991,
+      "endYear": 1998,
+      "signedFrom": "Crystal Palace",
+      "soldTo": "West Ham United",
+      "transferFeeIn": "£2.5m",
+      "transferFeeOut": "Free",
+      "captain": false,
+      "managersPlayedUnder": ["George Graham", "Bruce Rioch", "Arsene Wenger"]
+    },
+    "stats": {
+      "totalAppearances": 288,
+      "totalGoals": 185,
+      "totalAssists": 36,
+      "totalMinutesPlayed": 22140,
+      "goalsPer90": 0.75,
+      "assistsPer90": 0.15,
+      "cleanSheets": 0,
+      "yellowCards": 30,
+      "redCards": 3,
+      "byCompetition": [
+        {
+          "competition": "Premier League",
+          "appearances": 161,
+          "goals": 104,
+          "assists": 21,
+          "minutesPlayed": 12600
+        },
+        {
+          "competition": "First Division",
+          "appearances": 30,
+          "goals": 24,
+          "assists": 3,
+          "minutesPlayed": 2430
+        },
+        {
+          "competition": "FA Cup",
+          "appearances": 33,
+          "goals": 21,
+          "assists": 4,
+          "minutesPlayed": 2610
+        },
+        {
+          "competition": "League Cup",
+          "appearances": 24,
+          "goals": 15,
+          "assists": 3,
+          "minutesPlayed": 1800
+        },
+        {
+          "competition": "Cup Winners Cup",
+          "appearances": 16,
+          "goals": 8,
+          "assists": 2,
+          "minutesPlayed": 1260
+        },
+        {
+          "competition": "Champions League",
+          "appearances": 8,
+          "goals": 5,
+          "assists": 1,
+          "minutesPlayed": 630
+        },
+        {
+          "competition": "Community Shield",
+          "appearances": 2,
+          "goals": 1,
+          "assists": 0,
+          "minutesPlayed": 180
+        }
+      ]
+    },
+    "trophies": [
+      { "name": "First Division", "season": "1990-91" },
+      { "name": "FA Cup", "season": "1992-93" },
+      { "name": "League Cup", "season": "1992-93" },
+      { "name": "Cup Winners Cup", "season": "1993-94" },
+      { "name": "Premier League", "season": "1997-98" }
+    ],
+    "meta": {
+      "era": "George Graham",
+      "lastUpdated": "2025-01-01",
+      "dataSource": "fbref/wikipedia"
+    }
+  }
+]
